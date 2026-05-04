@@ -26,8 +26,8 @@ const steps = [
   },
   {
     step: "03",
-    title: "App captures GPS + selfie proof",
-    desc: "Automatically, the app records the GPS coordinates, timestamp, and prompts the employee for a selfie — creating a verified, multi-layer proof of presence.",
+    title: "App captures GPS + face authentication",
+    desc: "Automatically, the app records the GPS coordinates, timestamp, and confirms the real user through face authentication on the device.",
     color: "bg-violet-500",
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
@@ -39,7 +39,7 @@ const steps = [
   {
     step: "04",
     title: "Manager verifies from dashboard",
-    desc: "All check-in data — GPS proof, selfie, timestamp, and task details — appears in the admin dashboard for review, approval, or follow-up.",
+    desc: "All check-in data — GPS proof, face authentication status, timestamp, and task details — appears in the admin dashboard for review, approval, or follow-up.",
     color: "bg-green-500",
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">

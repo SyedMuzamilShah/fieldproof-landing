@@ -10,7 +10,7 @@ const plans = [
       "Manual reports",
       "Mobile app access",
     ],
-    missing: ["Selfie verification", "Admin dashboard", "Priority support"],
+    missing: ["Face authentication", "Admin dashboard", "Priority support"],
     cta: "Get Started Free",
     ctaStyle:
       "border border-slate-200 bg-white text-slate-800 hover:bg-slate-50",
@@ -23,7 +23,7 @@ const plans = [
     desc: "For small teams that need verified field check-ins.",
     features: [
       "Up to 10 employees",
-      "GPS + selfie verification",
+      "GPS + face authentication",
       "Task assignment",
       "Check-in history",
       "Basic admin view",
@@ -42,7 +42,7 @@ const plans = [
     desc: "For growing teams needing full dashboard control.",
     features: [
       "Up to 50 employees",
-      "GPS + selfie verification",
+      "GPS + face authentication",
       "Full admin dashboard",
       "Map visit history",
       "Reports & attendance export",

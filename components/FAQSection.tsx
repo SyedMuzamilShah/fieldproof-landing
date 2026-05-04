@@ -4,11 +4,11 @@ import { useState } from "react";
 const faqs = [
   {
     q: "Is this constant employee tracking?",
-    a: "No. FieldProof is built around proof-based check-ins, not background surveillance. The app only captures GPS and selfie data at the specific moment an employee checks in for an assigned task. There is no continuous or passive location tracking of any kind.",
+    a: "No. FieldProof is built around proof-based check-ins, not background surveillance. The app only captures GPS proof and face authentication data at the specific moment an employee checks in for an assigned task. There is no continuous or passive location tracking of any kind.",
   },
   {
     q: "Can employees fake their location?",
-    a: "FieldProof makes it extremely difficult to fake a check-in by combining three layers of proof: accurate GPS coordinates, a real-time selfie, and a verified timestamp. This multi-layer approach significantly reduces the possibility of fraudulent check-ins compared to GPS-only or manual systems.",
+    a: "FieldProof makes it extremely difficult to fake a check-in by combining accurate GPS coordinates, real-user face authentication, and a verified timestamp. This multi-layer approach significantly reduces the possibility of fraudulent check-ins compared to GPS-only or manual systems.",
   },
   {
     q: "Do I need any special hardware or devices?",
@@ -19,8 +19,8 @@ const faqs = [
     a: "FieldProof is currently in early access. The underlying system is fully built and operational — we are now preparing the SaaS launch. Join the waitlist to be among the first to access the platform at early-access pricing.",
   },
   {
-    q: "What happens to employee data and photos?",
-    a: "Check-in data, GPS coordinates, and selfie photos are stored securely and accessible only to authorized admins within your organization. FieldProof does not share employee data with third parties. Detailed privacy policies will be published ahead of launch.",
+    q: "What happens to employee check-in data?",
+    a: "Check-in data, GPS coordinates, and face authentication records are stored securely and accessible only to authorized admins within your organization. FieldProof does not share employee data with third parties. Detailed privacy policies will be published ahead of launch.",
   },
   {
     q: "Can I try it before the official launch?",

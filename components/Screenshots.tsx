@@ -35,7 +35,7 @@ const screenshots = [
     imagePath: "/images/mobile-checkin.png",
     alt: "Employee Mobile Check-in Screen",
     caption: "Mobile Check-in",
-    desc: "Employee check-in flow with one-tap GPS capture and selfie prompt.",
+    desc: "Employee check-in flow with one-tap GPS capture and face authentication.",
     size: "small",
     icon: (
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0c82f5" strokeWidth="1.5">
@@ -62,9 +62,9 @@ const screenshots = [
   },
   {
     imagePath: "/images/face-verification.png",
-    alt: "Face / Selfie Verification Screen",
-    caption: "Face Verification",
-    desc: "Selfie capture screen with face detection confirmation during check-in.",
+    alt: "Face Authentication Screen",
+    caption: "Face Authentication",
+    desc: "On-device face authentication confirms the real user during check-in.",
     size: "small",
     icon: (
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0c82f5" strokeWidth="1.5">

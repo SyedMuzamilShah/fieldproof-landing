@@ -24,8 +24,8 @@ const steps = [
   },
   {
     number: "03",
-    title: "Selfie proof is attached",
-    desc: "A selfie is captured and attached alongside the GPS data, creating a verifiable, multi-layer proof of presence.",
+    title: "Face authentication confirms the user",
+    desc: "Face authentication runs alongside GPS data, confirming the real employee is present during check-in.",
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
         <path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z" />
@@ -36,7 +36,7 @@ const steps = [
   {
     number: "04",
     title: "Admin reviews proof in dashboard",
-    desc: "Managers see all check-ins, GPS points, selfies, and timestamps in a clean dashboard — and can approve or flag any submission.",
+    desc: "Managers see all check-ins, GPS points, face authentication status, and timestamps in a clean dashboard — and can approve or flag any submission.",
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
         <rect x="3" y="3" width="18" height="18" rx="2" />

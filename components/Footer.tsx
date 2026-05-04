@@ -1,6 +1,7 @@
 const footerLinks = {
   Product: [
     { label: "Features", href: "#features" },
+    { label: "Platforms", href: "#platforms" },
     { label: "How It Works", href: "#how-it-works" },
     { label: "Pricing", href: "#pricing" },
     { label: "FAQ", href: "#faq" },
@@ -46,8 +47,8 @@ export default function Footer() {
               </span>
             </a>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs">
-              GPS + selfie proof for field employee verification. Built on a
-              production-ready Flutter + Node.js system.
+              GPS proof and face authentication for field employee
+              verification. Built for teams on any platform.
             </p>
             <div className="flex gap-3 mt-5">
               {/* Twitter/X */}

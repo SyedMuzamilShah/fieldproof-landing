@@ -1,4 +1,4 @@
-const techStack = [
+const platformHighlights = [
   {
     icon: (
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
@@ -9,8 +9,8 @@ const techStack = [
       </svg>
     ),
     title: "Mobile Employee App",
-    desc: "Flutter-built iOS & Android app for GPS check-in and selfie verification in the field.",
-    tag: "Flutter Mobile",
+    desc: "Works for field teams on standard mobile devices, with GPS check-in and face authentication wherever they work.",
+    tag: "Any Mobile Team",
   },
   {
     icon: (
@@ -22,8 +22,8 @@ const techStack = [
       </svg>
     ),
     title: "Desktop Admin Dashboard",
-    desc: "Flutter desktop panel for managers to review check-ins, tasks, maps, and employee history.",
-    tag: "Flutter Desktop",
+    desc: "Managers can review check-ins, tasks, maps, and employee history from the office or on the go.",
+    tag: "Any Admin Workflow",
   },
   {
     icon: (
@@ -33,9 +33,9 @@ const techStack = [
         <path d="M7 12h1M16 12h1M12 7V6M12 18v-1" stroke="#0c82f5" strokeWidth="1.5" strokeLinecap="round" />
       </svg>
     ),
-    title: "Node.js Backend",
-    desc: "Production API with MongoDB — handles auth, GPS data, photo uploads, task management, and reporting.",
-    tag: "Node.js + MongoDB",
+    title: "Platform-Ready System",
+    desc: "Designed to support everyday operations across mobile, desktop, and web-based workflows.",
+    tag: "Any Platform",
   },
   {
     icon: (
@@ -45,8 +45,8 @@ const techStack = [
         <path d="M16 20c0-2.21-1.79-4-4-4s-4 1.79-4 4" stroke="#0c82f5" strokeWidth="1.5" strokeLinecap="round" />
       </svg>
     ),
-    title: "GPS + Face Verification",
-    desc: "Combines accurate GPS coordinates with selfie capture and timestamp for multi-layer check-in proof.",
+    title: "GPS + Face Authentication",
+    desc: "Combines accurate GPS coordinates with real-user face authentication and timestamped check-in proof.",
     tag: "Core Feature",
   },
 ];
@@ -77,7 +77,7 @@ export default function TrustSection() {
 
         {/* Cards */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {techStack.map((item, i) => (
+          {platformHighlights.map((item, i) => (
             <div
               key={i}
               className="group relative bg-white rounded-2xl border border-slate-200 p-6 hover:border-brand-200 hover:shadow-lg hover:shadow-brand-500/5 transition-all duration-300 hover:-translate-y-1"
@@ -112,7 +112,7 @@ export default function TrustSection() {
             </div>
             <p className="text-sm text-slate-600">
               <span className="font-semibold text-slate-800">Real codebase.</span>{" "}
-              Flutter + Node.js + MongoDB. Ready to evolve into a full SaaS product.
+              Built for any platform and ready to evolve into a full SaaS product.
             </p>
           </div>
         </div>

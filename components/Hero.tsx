@@ -21,7 +21,7 @@ export default function Hero() {
               style={{ fontFamily: "var(--font-display)" }}
             >
               Verify field employees with{" "}
-              <span className="text-brand-600">GPS + selfie</span> proof.
+              <span className="text-brand-600">GPS + face</span> authentication.
             </h1>
 
             <p className="text-lg text-slate-600 leading-relaxed mb-8 max-w-xl animate-fade-up delay-200">
@@ -69,8 +69,8 @@ export default function Hero() {
 
             {/* Social proof micro-copy */}
             <p className="mt-6 text-xs text-slate-400 animate-fade-up delay-400">
-              Built on a production-ready Flutter + Node.js system. No beta
-              promises — real working software.
+              Built as a production-ready system for teams on any platform. No
+              beta promises — real working software.
             </p>
           </div>
 
@@ -134,7 +134,7 @@ export default function Hero() {
                           <div className="text-xs font-semibold text-slate-700">
                             Recent Verifications
                           </div>
-                          {["Ali Hassan — GPS ✓ Selfie ✓", "Sara Khan — GPS ✓ Selfie ✓", "Umar Farooq — GPS ✓ Selfie ✓"].map((row, i) => (
+                          {["Ali Hassan — GPS ✓ Face ✓", "Sara Khan — GPS ✓ Face ✓", "Umar Farooq — GPS ✓ Face ✓"].map((row, i) => (
                             <div
                               key={i}
                               className="flex items-center justify-between text-xs text-slate-600 py-0.5 border-b border-slate-50 last:border-0"
@@ -210,7 +210,7 @@ export default function Hero() {
                   <div className="text-xs font-bold text-slate-800">
                     Verified
                   </div>
-                  <div className="text-xs text-slate-400">GPS + Selfie</div>
+                  <div className="text-xs text-slate-400">GPS + Face</div>
                 </div>
               </div>
             </div>

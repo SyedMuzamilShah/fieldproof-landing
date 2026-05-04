@@ -6,7 +6,7 @@ const features = [
       </svg>
     ),
     title: "Verified Check-ins",
-    desc: "Each check-in is tied to a GPS coordinate, timestamp, and selfie — making it nearly impossible to fake.",
+    desc: "Each check-in is tied to a GPS coordinate, timestamp, and face authentication — making it nearly impossible to fake.",
     highlight: true,
   },
   {
@@ -26,8 +26,8 @@ const features = [
         <circle cx="12" cy="13" r="4" />
       </svg>
     ),
-    title: "Selfie / Face Verification",
-    desc: "A selfie is required at check-in, giving managers a visual confirmation of who performed the visit.",
+    title: "Real User Face Authentication",
+    desc: "Face authentication confirms the real employee is using the device during check-in.",
   },
   {
     icon: (
